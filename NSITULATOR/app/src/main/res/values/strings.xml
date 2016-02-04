@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NSITULATOR</string>
+    <string name="action_settings">Settings</string>
+    <string name="percentage" />
+    <string-array name="branch">
+        <item>Branch</item>
+        <item>COE</item>
+        <item>ECE</item>
+        <item>IT</item>
+        <item>ICE</item>
+        <item>MPAE</item>
+        <item>BT</item>
+    </string-array>
+
+   <string-array name="semester">
+       <item>Semester</item>
+       <item>Sem 1</item>
+       <item>Sem 2</item>
+       <item>Sem 3</item>
+       <item>Sem 4</item>
+       <item>Sem 5</item>
+       <item>Sem 6</item>
+       <item>Sem 7</item>
+       <item>Sem 8</item>
+   </string-array>
+</resources>
