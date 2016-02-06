@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
                         tc12.setTextColor(Color.parseColor("#b3b3b3"));
                     }
 
+
                     else if(s2.getSelectedItem().toString().equals("Sem 3"))
                     {
                         cc();
@@ -100,6 +101,9 @@ public class MainActivity extends AppCompatActivity {
                         tc11.setTextColor(Color.parseColor("#b3b3b3"));
                         tc12.setTextColor(Color.parseColor("#b3b3b3"));
                     }
+                    else if(s2.getSelectedItem().toString().equals("Sem 4"))
+                    {
+                        cc();}
 
                     else if(s2.getSelectedItem().toString().equals("Sem 5"))
                     {
@@ -231,6 +235,9 @@ public class MainActivity extends AppCompatActivity {
                         tc10.setTextColor(Color.parseColor("#b3b3b3"));
                         tc12.setTextColor(Color.parseColor("#b3b3b3"));
                     }
+                    else if(s2.getSelectedItem().toString().equals("Sem 7"))
+                    {
+                        cc();}
 
                     else if(s2.getSelectedItem().toString().equals("Sem 8"))
                     {
@@ -352,7 +359,8 @@ public class MainActivity extends AppCompatActivity {
                         tc10.setTextColor(Color.parseColor("#b3b3b3"));
                         tc11.setTextColor(Color.parseColor("#b3b3b3"));
                         tc12.setTextColor(Color.parseColor("#b3b3b3"));
-                    } else if (s2.getSelectedItem().toString().equals("Sem 2")) {
+                    }
+                    else if (s2.getSelectedItem().toString().equals("Sem 2")) {
 
                         cc();
                         TextView tc10 = (TextView) findViewById(R.id.tv10);
@@ -363,7 +371,8 @@ public class MainActivity extends AppCompatActivity {
                         tc12.setTextColor(Color.parseColor("#b3b3b3"));
                         tc11.setTextColor(Color.parseColor("#b3b3b3"));
 
-                    } else if (s2.getSelectedItem().toString().equals("Sem 3")) {
+                    }
+                    else if (s2.getSelectedItem().toString().equals("Sem 3")) {
 
                         cc();
                         TextView tc10 = (TextView) findViewById(R.id.tv10);
@@ -371,7 +380,12 @@ public class MainActivity extends AppCompatActivity {
 
                         tc10.setTextColor(Color.parseColor("#b3b3b3"));
                         tc12.setTextColor(Color.parseColor("#b3b3b3"));
-                    }  else if (s2.getSelectedItem().toString().equals("Sem 5")) {
+                    }
+                    else if(s2.getSelectedItem().toString().equals("Sem 4"))
+                    {
+                        cc();}
+
+                    else if (s2.getSelectedItem().toString().equals("Sem 5")) {
 
                         cc();
                         TextView tc10 = (TextView) findViewById(R.id.tv10);
@@ -382,6 +396,15 @@ public class MainActivity extends AppCompatActivity {
                         tc10.setTextColor(Color.parseColor("#b3b3b3"));
                         tc12.setTextColor(Color.parseColor("#b3b3b3"));
                     }
+                    else if(s2.getSelectedItem().toString().equals("Sem 6"))
+                    {
+                        cc();}
+                    else if(s2.getSelectedItem().toString().equals("Sem 7"))
+                    {
+                        cc();}
+                    else if(s2.getSelectedItem().toString().equals("Sem 8"))
+                    {
+                        cc();}
                 }
 
                 else if (s1.getSelectedItem().toString().equals("BT"))
@@ -458,6 +481,12 @@ public class MainActivity extends AppCompatActivity {
                         tc12.setTextColor(Color.parseColor("#b3b3b3"));
 
                     }
+                    else if(s2.getSelectedItem().toString().equals("Sem 7"))
+                    {
+                        cc();}
+                    else if(s2.getSelectedItem().toString().equals("Sem 8"))
+                    {
+                        cc();}
 
                 }
 
@@ -498,7 +527,9 @@ public class MainActivity extends AppCompatActivity {
                         tc12.setTextColor(Color.parseColor("#b3b3b3"));
                     }
 
-
+                    else if(s2.getSelectedItem().toString().equals("Sem 4"))
+                    {
+                        cc();}
 
                     else if(s2.getSelectedItem().toString().equals("Sem 5")){
 
@@ -522,6 +553,12 @@ public class MainActivity extends AppCompatActivity {
                         tc10.setTextColor(Color.parseColor("#b3b3b3"));
 
                     }
+                    else if(s2.getSelectedItem().toString().equals("Sem 7"))
+                    {
+                        cc();}
+                    else if(s2.getSelectedItem().toString().equals("Sem 8"))
+                    {
+                        cc();}
 
 
                 }
