@@ -1,5 +1,6 @@
 package com.example.ayush.nsitulator;
 
+import android.graphics.Color;
 import android.os.Bundle;
 
 import android.support.v7.app.AppCompatActivity;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     Spinner s2;
     ArrayAdapter<CharSequence>adapter;
     ArrayAdapter<CharSequence>adapter1;
+
 
 
 
@@ -60,6 +62,470 @@ public class MainActivity extends AppCompatActivity {
                 String val1 = s2.getSelectedItem().toString();
                 Toast.makeText(getApplicationContext(),"Semester selected is "+ val1, Toast.LENGTH_SHORT).show();
 
+                if(s1.getSelectedItem().toString().equals("COE"))
+                {
+                    if(s2.getSelectedItem().toString().equals("Sem 1"))
+                    {
+                        cc();
+
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc11 = (TextView)findViewById(R.id.tv11);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 2"))
+                    {
+                        cc();
+
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc11 = (TextView)findViewById(R.id.tv11);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 3"))
+                    {
+                        cc();
+
+                        TextView tc11 = (TextView)findViewById(R.id.tv11);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 5"))
+                    {
+                        cc();
+
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc9 = (TextView)findViewById(R.id.tv9);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc9.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 6"))
+                    {
+                        cc();
+
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc9 = (TextView)findViewById(R.id.tv9);
+
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc9.setTextColor(Color.parseColor("#b3b3b3"));
+
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 7"))
+                    {
+                        cc();
+
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 8"))
+                    {
+                        cc();
+
+                        TextView tc4 = (TextView)findViewById(R.id.tv4);
+                        TextView tc5 = (TextView)findViewById(R.id.tv5);
+                        TextView tc9 = (TextView)findViewById(R.id.tv9);
+                        TextView tc10= (TextView)findViewById(R.id.tv10);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc9.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc5.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc4.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+                }
+                else if (s1.getSelectedItem().toString().equals("IT"))
+                {
+
+                    if(s2.getSelectedItem().toString().equals("Sem 1")){
+
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc11 = (TextView)findViewById(R.id.tv11);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 2")){
+
+                        cc();
+
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc11 = (TextView)findViewById(R.id.tv11);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 3")){
+                        cc();
+
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc9 = (TextView)findViewById(R.id.tv9);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc9.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 4"))
+                    {
+
+                        cc();
+                        TextView tc11 = (TextView)findViewById(R.id.tv11);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 5")){
+
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc9 = (TextView)findViewById(R.id.tv9);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc9.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 6")){
+
+                        cc();
+
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 8"))
+                    {
+                        cc();
+
+                        TextView tc4 = (TextView)findViewById(R.id.tv4);
+                        TextView tc5 = (TextView)findViewById(R.id.tv5);
+                        TextView tc9 = (TextView)findViewById(R.id.tv9);
+                        TextView tc10= (TextView)findViewById(R.id.tv10);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc9.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc5.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc4.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+                }
+
+                else if (s1.getSelectedItem().toString().equals("MPAE"))
+                {
+
+                    if(s2.getSelectedItem().toString().equals("Sem 1")){
+
+                        cc();
+
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc11 = (TextView)findViewById(R.id.tv11);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 2")){
+
+                        cc();
+
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 3")){
+
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 4"))
+                    {
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 5")){
+
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 6")){
+
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 7"))
+                    {
+
+                        cc();
+                        TextView tc10= (TextView)findViewById(R.id.tv10);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 8"))
+                    {
+                        cc();
+                        TextView tc4= (TextView)findViewById(R.id.tv4);
+                        TextView tc5 = (TextView)findViewById(R.id.tv5);
+                        TextView tc10= (TextView)findViewById(R.id.tv10);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc4.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc5.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+                }
+
+                else if (s1.getSelectedItem().toString().equals("ECE")) {
+
+                    if (s2.getSelectedItem().toString().equals("Sem 1")) {
+
+                        cc();
+                        TextView tc10 = (TextView) findViewById(R.id.tv10);
+                        TextView tc11 = (TextView) findViewById(R.id.tv11);
+                        TextView tc12 = (TextView) findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    } else if (s2.getSelectedItem().toString().equals("Sem 2")) {
+
+                        cc();
+                        TextView tc10 = (TextView) findViewById(R.id.tv10);
+                        TextView tc11 = (TextView) findViewById(R.id.tv11);
+                        TextView tc12 = (TextView) findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+
+                    } else if (s2.getSelectedItem().toString().equals("Sem 3")) {
+
+                        cc();
+                        TextView tc10 = (TextView) findViewById(R.id.tv10);
+                        TextView tc12 = (TextView) findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }  else if (s2.getSelectedItem().toString().equals("Sem 5")) {
+
+                        cc();
+                        TextView tc10 = (TextView) findViewById(R.id.tv10);
+                        TextView tc9 = (TextView) findViewById(R.id.tv9);
+                        TextView tc12 = (TextView) findViewById(R.id.tv12);
+
+                        tc9.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+                }
+
+                else if (s1.getSelectedItem().toString().equals("BT"))
+                {
+
+                    if(s2.getSelectedItem().toString().equals("Sem 1")){
+
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc11 = (TextView)findViewById(R.id.tv11);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 2")){
+
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc11 = (TextView)findViewById(R.id.tv11);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 3")){
+
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc11 = (TextView)findViewById(R.id.tv11);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 4"))
+                    {
+
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc9 = (TextView)findViewById(R.id.tv9);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc9.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 5")){
+
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 6")){
+
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc11 = (TextView)findViewById(R.id.tv11);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+
+                    }
+
+                }
+
+                else if (s1.getSelectedItem().toString().equals("ICE"))
+                {
+
+                    if(s2.getSelectedItem().toString().equals("Sem 1")){
+
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc11 = (TextView)findViewById(R.id.tv11);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 2")){
+
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc11 = (TextView)findViewById(R.id.tv11);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc11.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 3")){
+
+                        cc();
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 5")){
+
+                        cc();
+                        TextView tc9 = (TextView)findViewById(R.id.tv9);
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+                        TextView tc12 = (TextView)findViewById(R.id.tv12);
+
+                        tc9.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc12.setTextColor(Color.parseColor("#b3b3b3"));
+                    }
+
+                    else if(s2.getSelectedItem().toString().equals("Sem 6")){
+
+                        cc();
+                        TextView tc9 = (TextView)findViewById(R.id.tv9);
+                        TextView tc10 = (TextView)findViewById(R.id.tv10);
+
+                        tc9.setTextColor(Color.parseColor("#b3b3b3"));
+                        tc10.setTextColor(Color.parseColor("#b3b3b3"));
+
+                    }
+
+
+                }
+
 
 
             }
@@ -72,11 +538,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-     public void onCalculate(View a)
-     {
-         if(a.getId()==R.id.buttC)
+    public void onCalculate(View a)
+    {
+        if(a.getId()==R.id.buttC)
 
-         {
+        {
 
 
 
@@ -84,634 +550,962 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-             double tux,pux,p;
-
-
-             if(s1.getSelectedItem().toString().equals("COE"))
-             {
-                 if(s2.getSelectedItem().toString().equals("Sem 1"))
-                 {
-                     //code here
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-
-
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = (3*n6)+2*(n7+n8+n9);
-                     p   = (tux+pux)/29;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 2"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9);
-                     p   = (tux+pux)/28;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 3"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t10 = (EditText)findViewById(R.id.ten);
-
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     n10 =Double.parseDouble(t10.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8)+(3*n9);
-                     p   = (tux+pux+n10)/30;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 4"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t10 = (EditText)findViewById(R.id.ten);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-                     EditText t12 = (EditText)findViewById(R.id.twelve);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     n10 =Double.parseDouble(t10.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n12 = Double.parseDouble(t12.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9+n10);
-                     p   = (tux+pux+n11+n12)/32;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 5"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8);
-                     p   = (tux+pux+n11)/27;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 6"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-                     EditText t12 = (EditText)findViewById(R.id.twelve);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n12 = Double.parseDouble(t12.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n12);
-                     p   = (tux+pux+n11)/29;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-                 else if (s2.getSelectedItem().toString().equals("Sem 7"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t10 = (EditText)findViewById(R.id.ten);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-                     EditText t12 = (EditText)findViewById(R.id.twelve);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8)+3*n9;
-                     p   = (tux+pux+n11)/30;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 8"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-
-                     tux = 4*(n1+n2+n3);
-                     pux = (2*n6)+(8*n7)+(4*n8);
-                     p   = (tux+pux+n11)/27;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-             }
-             else if (s1.getSelectedItem().toString().equals("IT"))
-             {
-
-                 if(s2.getSelectedItem().toString().equals("Sem 1"))
-                 {
-                     //code here
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = (3*n6)+2*(n7+n8+n9);
-                     p   = (tux+pux)/29;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 2"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9);
-                     p   = (tux+pux)/28;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 3"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8);
-                     p   = (tux+pux+n11)/27;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 4"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t10 = (EditText)findViewById(R.id.ten);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     n10 =Double.parseDouble(t10.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9+n10);
-                     p   = (tux+pux)/30;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 5"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8);
-                     p   = (tux+pux+n11)/27;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 6"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9);
-                     p   = (tux+pux+n11)/29;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-                 else if (s2.getSelectedItem().toString().equals("Sem 7"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-                     EditText t12 = (EditText)findViewById(R.id.twelve);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n12 = Double.parseDouble(t12.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9+n12)+(4*n11);
-                     p   = (tux+pux)/34;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 8"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-
-                     tux = 4*(n1+n2+n3);
-                     pux = (2*n6)+(8*n7)+(4*n8)+(2*n11);
-                     p   = (tux+pux)/28;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-             }
-             else if (s1.getSelectedItem().toString().equals("MPAE"))
-             {
-
-                 if(s2.getSelectedItem().toString().equals("Sem 1"))
-                 {
-                     //code here
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = (3*n6)+2*(n7+n8+n9);
-                     p   = (tux+pux)/29;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 2"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9);
-                     p   = (tux+pux+n11)/29;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 3"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9);
-                     p   = (tux+pux+n11)/29;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 4"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
+            double tux,pux,p;
+
+
+            if(s1.getSelectedItem().toString().equals("COE"))
+            {
+                if(s2.getSelectedItem().toString().equals("Sem 1"))
+                {
+
+
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+
+
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = (3*n6)+2*(n7+n8+n9);
+                    p   = (tux+pux)/29;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 2"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9);
+                    p   = (tux+pux)/28;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 3"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t10 = (EditText)findViewById(R.id.ten);
+
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    n10 =Double.parseDouble(t10.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8)+(3*n9);
+                    p   = (tux+pux+n10)/30;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 4"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t10 = (EditText)findViewById(R.id.ten);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+                    EditText t12 = (EditText)findViewById(R.id.twelve);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    n10 =Double.parseDouble(t10.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n12 = Double.parseDouble(t12.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9+n10);
+                    p   = (tux+pux+n11+n12)/32;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 5"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8);
+                    p   = (tux+pux+n11)/27;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 6"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+                    EditText t12 = (EditText)findViewById(R.id.twelve);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n12 = Double.parseDouble(t12.getText().toString());
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n12);
+                    p   = (tux+pux+n11)/29;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+                else if (s2.getSelectedItem().toString().equals("Sem 7"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8)+3*n9;
+                    p   = (tux+pux+n11)/30;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 8"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+
+                    tux = 4*(n1+n2+n3);
+                    pux = (2*n6)+(8*n7)+(4*n8);
+                    p   = (tux+pux+n11)/27;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+            }
+            else if (s1.getSelectedItem().toString().equals("IT"))
+            {
+
+                if(s2.getSelectedItem().toString().equals("Sem 1"))
+                {
+                    //code here
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = (3*n6)+2*(n7+n8+n9);
+                    p   = (tux+pux)/29;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 2"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9);
+                    p   = (tux+pux)/28;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 3"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8);
+                    p   = (tux+pux+n11)/27;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 4"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t10 = (EditText)findViewById(R.id.ten);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    n10 =Double.parseDouble(t10.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9+n10);
+                    p   = (tux+pux)/30;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 5"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8);
+                    p   = (tux+pux+n11)/27;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 6"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9);
+                    p   = (tux+pux+n11)/29;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+                else if (s2.getSelectedItem().toString().equals("Sem 7"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+                    EditText t12 = (EditText)findViewById(R.id.twelve);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n12 = Double.parseDouble(t12.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9+n12)+(4*n11);
+                    p   = (tux+pux)/34;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 8"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+
+                    tux = 4*(n1+n2+n3);
+                    pux = (2*n6)+(8*n7)+(4*n8)+(2*n11);
+                    p   = (tux+pux)/28;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+            }
+            else if (s1.getSelectedItem().toString().equals("MPAE"))
+            {
+
+                if(s2.getSelectedItem().toString().equals("Sem 1"))
+                {
+                    //code here
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = (3*n6)+2*(n7+n8+n9);
+                    p   = (tux+pux)/29;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 2"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9);
+                    p   = (tux+pux+n11)/29;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 3"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9);
+                    p   = (tux+pux+n11)/29;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 4"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+                    EditText t12 = (EditText)findViewById(R.id.twelve);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n12 = Double.parseDouble(t12.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9);
+                    p   = (tux+pux+n11+n12)/30;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 5"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9);
+                    p   = (tux+pux+n11)/29;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 6"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+                    EditText t12 = (EditText)findViewById(R.id.twelve);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n12 = Double.parseDouble(t12.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9);
+                    p   = (tux+pux+n11+n12)/30;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+                else if (s2.getSelectedItem().toString().equals("Sem 7"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9);
+                    p   = (tux+pux+n11)/29;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 8"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    tux = 4*(n1+n2+n3);
+                    pux = 2*(n6+n7)+(8*n8)+(2*n9);
+                    p   = (tux+pux+n11)/27;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+            }
+
+            else if (s1.getSelectedItem().toString().equals("ECE"))  // 6, 7, 8 Credits not found false data taken
+            {
+
+                if(s2.getSelectedItem().toString().equals("Sem 1"))
+                {
+                    //code here
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = (3*n6)+2*(n7+n8+n9);
+                    p   = (tux+pux)/29;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 2"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    tux = 4*(n1+n2+n3+n4+n5+n8);
+                    pux = 2*(n6+n7+n9);
+                    p   = (tux+pux)/30;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 3"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8)+3*n9;
+                    p   = (tux+pux+n11)/30;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 4"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t10 = (EditText)findViewById(R.id.ten);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+                    EditText t12 = (EditText)findViewById(R.id.twelve);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    n10 =Double.parseDouble(t10.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n12 = Double.parseDouble(t12.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9+n10);
+                    p   = (tux+pux+n11+n12)/32;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 5"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8);
+                    p   = (tux+pux+n11)/27;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 6"))
+                {
+                    Toast.makeText(getApplicationContext(), "Sem 6 ECE credits not found. Can't calculate result", Toast.LENGTH_LONG).show();
+
+                    /* EditText t1 = (EditText)findViewById(R.id.one);
                      EditText t2 = (EditText)findViewById(R.id.two);
                      EditText t3 = (EditText)findViewById(R.id.three);
                      EditText t4 = (EditText)findViewById(R.id.four);
@@ -740,340 +1534,13 @@ public class MainActivity extends AppCompatActivity {
                      p   = (tux+pux+n11+n12)/30;
 
                      TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
+                     rs.setText(String.format("%.2f ",p));*/
 
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 5"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9);
-                     p   = (tux+pux+n11)/29;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 6"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-                     EditText t12 = (EditText)findViewById(R.id.twelve);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n12 = Double.parseDouble(t12.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9);
-                     p   = (tux+pux+n11+n12)/30;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-                 else if (s2.getSelectedItem().toString().equals("Sem 7"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9);
-                     p   = (tux+pux+n11)/29;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 8"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3);
-                     pux = 2*(n6+n7)+(8*n8)+(2*n9);
-                     p   = (tux+pux+n11)/27;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-             }
-
-             else if (s1.getSelectedItem().toString().equals("ECE"))  // 6, 7, 8 Credits not found false data taken
-             {
-
-                 if(s2.getSelectedItem().toString().equals("Sem 1"))
-                 {
-                     //code here
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = (3*n6)+2*(n7+n8+n9);
-                     p   = (tux+pux)/29;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 2"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5+n8);
-                     pux = 2*(n6+n7+n9);
-                     p   = (tux+pux)/30;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 3"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8)+3*n9;
-                     p   = (tux+pux+n11)/30;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 4"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t10 = (EditText)findViewById(R.id.ten);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-                     EditText t12 = (EditText)findViewById(R.id.twelve);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     n10 =Double.parseDouble(t10.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n12 = Double.parseDouble(t12.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9+n10);
-                     p   = (tux+pux+n11+n12)/32;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 5"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8);
-                     p   = (tux+pux+n11)/27;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 6"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-                     EditText t12 = (EditText)findViewById(R.id.twelve);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n12 = Double.parseDouble(t12.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9);
-                     p   = (tux+pux+n11+n12)/30;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-                 else if (s2.getSelectedItem().toString().equals("Sem 7"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
+                }
+                else if (s2.getSelectedItem().toString().equals("Sem 7"))
+                {
+                    Toast.makeText(getApplicationContext(), "Sem 7 ECE credits not found. Can't calculate result", Toast.LENGTH_LONG).show();
+                    /* EditText t1 = (EditText)findViewById(R.id.one);
                      EditText t2 = (EditText)findViewById(R.id.two);
                      EditText t3 = (EditText)findViewById(R.id.three);
                      EditText t4 = (EditText)findViewById(R.id.four);
@@ -1100,13 +1567,15 @@ public class MainActivity extends AppCompatActivity {
                      p   = (tux+pux+n11)/29;
 
                      TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
+                     rs.setText(String.format("%.2f ",p));*/
 
-                 }
+                }
 
-                 else if (s2.getSelectedItem().toString().equals("Sem 8"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
+                else if (s2.getSelectedItem().toString().equals("Sem 8"))
+                {
+                    Toast.makeText(getApplicationContext(), "Sem 8 ECE credits not found. Can't calculate result", Toast.LENGTH_LONG).show();
+
+                    /* EditText t1 = (EditText)findViewById(R.id.one);
                      EditText t2 = (EditText)findViewById(R.id.two);
                      EditText t3 = (EditText)findViewById(R.id.three);
                      EditText t6 = (EditText)findViewById(R.id.six);
@@ -1128,21 +1597,217 @@ public class MainActivity extends AppCompatActivity {
                      p   = (tux+pux+n11)/28;
 
                      TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
+                     rs.setText(String.format("%.2f ",p));*/
 
-                 }
+                }
 
-             }
+            }
 
-             else if (s1.getSelectedItem().toString().equals("ICE")) // 7, 8 credits not found false data taken
-             {
+            else if (s1.getSelectedItem().toString().equals("ICE")) // 7, 8 credits not found false data taken
+            {
 
 
-                 if(s2.getSelectedItem().toString().equals("Sem 1"))
-                 {
-                     //code here
+                if(s2.getSelectedItem().toString().equals("Sem 1"))
+                {
+                    //code here
 
-                     EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t10 = (EditText)findViewById(R.id.ten);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+                    EditText t12 = (EditText)findViewById(R.id.twelve);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = (3*n6)+2*(n7+n8+n9);
+                    p   = (tux+pux)/29;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 2"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9);
+                    p   = (tux+pux)/28;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 3"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8)+3*n9;
+                    p   = (tux+pux+n11)/30;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 4"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t10 = (EditText)findViewById(R.id.ten);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+                    EditText t12 = (EditText)findViewById(R.id.twelve);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    n10 =Double.parseDouble(t10.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n12 = Double.parseDouble(t12.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9+n10);
+                    p   = (tux+pux+n11+n12)/32;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 5"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8);
+                    p   = (tux+pux+n11)/27;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+
+                else if (s2.getSelectedItem().toString().equals("Sem 6"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
+                    EditText t12 = (EditText)findViewById(R.id.twelve);
+
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
+                    n12 = Double.parseDouble(t12.getText().toString());
+
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n12);
+                    p   = (tux+pux+n11)/29;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+                else if (s2.getSelectedItem().toString().equals("Sem 7"))
+                {
+                    Toast.makeText(getApplicationContext(), "Sem 7 ICE credits not found. Can't calculate result", Toast.LENGTH_LONG).show();
+                     /*EditText t1 = (EditText)findViewById(R.id.one);
                      EditText t2 = (EditText)findViewById(R.id.two);
                      EditText t3 = (EditText)findViewById(R.id.three);
                      EditText t4 = (EditText)findViewById(R.id.four);
@@ -1151,9 +1816,8 @@ public class MainActivity extends AppCompatActivity {
                      EditText t7 = (EditText)findViewById(R.id.seven);
                      EditText t8 = (EditText)findViewById(R.id.eight);
                      EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t10 = (EditText)findViewById(R.id.ten);
                      EditText t11 = (EditText)findViewById(R.id.eleven);
-                     EditText t12 = (EditText)findViewById(R.id.twelve);
+
 
                      n1 =Double.parseDouble(t1.getText().toString());
                      n2 =Double.parseDouble(t2.getText().toString());
@@ -1163,213 +1827,21 @@ public class MainActivity extends AppCompatActivity {
                      n6 =Double.parseDouble(t6.getText().toString());
                      n7 =Double.parseDouble(t7.getText().toString());
                      n8 =Double.parseDouble(t8.getText().toString());
-
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = (3*n6)+2*(n7+n8+n9);
-                     p   = (tux+pux)/29;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 2"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
+                     n11 = Double.parseDouble(t11.getText().toString());
                      n9 =Double.parseDouble(t9.getText().toString());
                      tux = 4*(n1+n2+n3+n4+n5);
                      pux = 2*(n6+n7+n8+n9);
-                     p   = (tux+pux)/28;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 3"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8)+3*n9;
-                     p   = (tux+pux+n11)/30;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 4"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t10 = (EditText)findViewById(R.id.ten);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-                     EditText t12 = (EditText)findViewById(R.id.twelve);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     n10 =Double.parseDouble(t10.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n12 = Double.parseDouble(t12.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9+n10);
-                     p   = (tux+pux+n11+n12)/32;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 5"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8);
-                     p   = (tux+pux+n11)/27;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 6"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-                     EditText t12 = (EditText)findViewById(R.id.twelve);
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n12 = Double.parseDouble(t12.getText().toString());
-
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n12);
                      p   = (tux+pux+n11)/29;
 
                      TextView rs = (TextView)findViewById(R.id.per);
                      rs.setText(String.format("%.2f ",p));
+*/
+                }
 
-                 }
-                 else if (s2.getSelectedItem().toString().equals("Sem 7"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9);
-                     p   = (tux+pux+n11)/29;
-
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-
-                 }
-
-                 else if (s2.getSelectedItem().toString().equals("Sem 8"))
-                 {
+                else if (s2.getSelectedItem().toString().equals("Sem 8"))
+                {
+                    Toast.makeText(getApplicationContext(), "Sem 8 ICE credits not found. Can't calculate result", Toast.LENGTH_LONG).show();
+                     /*
                      EditText t1 = (EditText)findViewById(R.id.one);
                      EditText t2 = (EditText)findViewById(R.id.two);
                      EditText t3 = (EditText)findViewById(R.id.three);
@@ -1394,202 +1866,205 @@ public class MainActivity extends AppCompatActivity {
 
                      TextView rs = (TextView)findViewById(R.id.per);
                      rs.setText(String.format("%.2f ",p));
+                     */
 
-                 }
+                }
 
-             }
+            }
 
-             else if (s1.getSelectedItem().toString().equals("BT")) // 7,8 Credits not found false data taken
-             {
+            else if (s1.getSelectedItem().toString().equals("BT")) // 7,8 Credits not found false data taken
+            {
 
-                 if(s2.getSelectedItem().toString().equals("Sem 1"))
-                 {
-                     //code here
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
+                if(s2.getSelectedItem().toString().equals("Sem 1"))
+                {
+                    //code here
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
 
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = (3*n6)+2*(n7+n8+n9);
-                     p   = (tux+pux)/29;
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = (3*n6)+2*(n7+n8+n9);
+                    p   = (tux+pux)/29;
 
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
-                 }
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+                }
 
-                 else if (s2.getSelectedItem().toString().equals("Sem 2"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
+                else if (s2.getSelectedItem().toString().equals("Sem 2"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
 
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9);
-                     p   = (tux+pux)/28;
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9);
+                    p   = (tux+pux)/28;
 
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
 
-                 }
+                }
 
-                 else if (s2.getSelectedItem().toString().equals("Sem 3"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
+                else if (s2.getSelectedItem().toString().equals("Sem 3"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
 
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
 
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n9);
-                     p   = (tux+pux)/28;
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n9);
+                    p   = (tux+pux)/28;
 
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
 
-                 }
+                }
 
-                 else if (s2.getSelectedItem().toString().equals("Sem 4"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
-
-
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
+                else if (s2.getSelectedItem().toString().equals("Sem 4"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
 
 
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n11);
-                     p   = (tux+pux)/28;
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
 
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
 
-                 }
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n11);
+                    p   = (tux+pux)/28;
 
-                 else if (s2.getSelectedItem().toString().equals("Sem 5"))
-                 {
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
-                     EditText t11 = (EditText)findViewById(R.id.eleven);
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
 
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n11 = Double.parseDouble(t11.getText().toString());
+                }
 
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8+n11);
-                     p   = (tux+pux)/30;
+                else if (s2.getSelectedItem().toString().equals("Sem 5"))
+                {
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
+                    EditText t11 = (EditText)findViewById(R.id.eleven);
 
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n11 = Double.parseDouble(t11.getText().toString());
 
-                 }
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8+n11);
+                    p   = (tux+pux)/30;
 
-                 else if (s2.getSelectedItem().toString().equals("Sem 6"))
-                 {
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
 
-                     EditText t1 = (EditText)findViewById(R.id.one);
-                     EditText t2 = (EditText)findViewById(R.id.two);
-                     EditText t3 = (EditText)findViewById(R.id.three);
-                     EditText t4 = (EditText)findViewById(R.id.four);
-                     EditText t5 = (EditText)findViewById(R.id.five);
-                     EditText t6 = (EditText)findViewById(R.id.six);
-                     EditText t7 = (EditText)findViewById(R.id.seven);
-                     EditText t8 = (EditText)findViewById(R.id.eight);
-                     EditText t9 = (EditText)findViewById(R.id.nine);
+                }
 
-                     n1 =Double.parseDouble(t1.getText().toString());
-                     n2 =Double.parseDouble(t2.getText().toString());
-                     n3 =Double.parseDouble(t3.getText().toString());
-                     n4 =Double.parseDouble(t4.getText().toString());
-                     n5 =Double.parseDouble(t5.getText().toString());
-                     n6 =Double.parseDouble(t6.getText().toString());
-                     n7 =Double.parseDouble(t7.getText().toString());
-                     n8 =Double.parseDouble(t8.getText().toString());
-                     n9 =Double.parseDouble(t9.getText().toString());
-                     tux = 4*(n1+n2+n3+n4+n5);
-                     pux = 2*(n6+n7+n8);
-                     p   = (tux+pux+n9)/28;
+                else if (s2.getSelectedItem().toString().equals("Sem 6"))
+                {
 
-                     TextView rs = (TextView)findViewById(R.id.per);
-                     rs.setText(String.format("%.2f ",p));
+                    EditText t1 = (EditText)findViewById(R.id.one);
+                    EditText t2 = (EditText)findViewById(R.id.two);
+                    EditText t3 = (EditText)findViewById(R.id.three);
+                    EditText t4 = (EditText)findViewById(R.id.four);
+                    EditText t5 = (EditText)findViewById(R.id.five);
+                    EditText t6 = (EditText)findViewById(R.id.six);
+                    EditText t7 = (EditText)findViewById(R.id.seven);
+                    EditText t8 = (EditText)findViewById(R.id.eight);
+                    EditText t9 = (EditText)findViewById(R.id.nine);
 
-                 }
-                 else if (s2.getSelectedItem().toString().equals("Sem 7"))
-                 {
+                    n1 =Double.parseDouble(t1.getText().toString());
+                    n2 =Double.parseDouble(t2.getText().toString());
+                    n3 =Double.parseDouble(t3.getText().toString());
+                    n4 =Double.parseDouble(t4.getText().toString());
+                    n5 =Double.parseDouble(t5.getText().toString());
+                    n6 =Double.parseDouble(t6.getText().toString());
+                    n7 =Double.parseDouble(t7.getText().toString());
+                    n8 =Double.parseDouble(t8.getText().toString());
+                    n9 =Double.parseDouble(t9.getText().toString());
+                    tux = 4*(n1+n2+n3+n4+n5);
+                    pux = 2*(n6+n7+n8);
+                    p   = (tux+pux+n9)/28;
+
+                    TextView rs = (TextView)findViewById(R.id.per);
+                    rs.setText(String.format("%.2f ",p));
+
+                }
+                else if (s2.getSelectedItem().toString().equals("Sem 7"))
+                {
+                    Toast.makeText(getApplicationContext(), "Sem 7 BT credits not found. Can't calculate result", Toast.LENGTH_LONG).show();
+                     /*
                      EditText t1 = (EditText)findViewById(R.id.one);
                      EditText t2 = (EditText)findViewById(R.id.two);
                      EditText t3 = (EditText)findViewById(R.id.three);
@@ -1618,11 +2093,14 @@ public class MainActivity extends AppCompatActivity {
 
                      TextView rs = (TextView)findViewById(R.id.per);
                      rs.setText(String.format("%.2f ",p));
+                     */
 
-                 }
+                }
 
-                 else if (s2.getSelectedItem().toString().equals("Sem 8"))
-                 {
+                else if (s2.getSelectedItem().toString().equals("Sem 8"))
+                {
+                    Toast.makeText(getApplicationContext(), "Sem 8 BT credits not found. Can't calculate result", Toast.LENGTH_LONG).show();
+                     /*
                      EditText t1 = (EditText)findViewById(R.id.one);
                      EditText t2 = (EditText)findViewById(R.id.two);
                      EditText t3 = (EditText)findViewById(R.id.three);
@@ -1648,13 +2126,47 @@ public class MainActivity extends AppCompatActivity {
 
                      TextView rs = (TextView)findViewById(R.id.per);
                      rs.setText(String.format("%.2f ",p));
+                     */
 
-                 }
+                }
 
-             }
-         }
+            }
+        }
 
-     }
+    }
+
+    public void cc(){
+
+        TextView c1 = (TextView)findViewById(R.id.tv1);
+        TextView c2 = (TextView)findViewById(R.id.tv2);
+        TextView c3 = (TextView)findViewById(R.id.tv3);
+        TextView c4 = (TextView)findViewById(R.id.tv4);
+        TextView c5 = (TextView)findViewById(R.id.tv5);
+        TextView c6 = (TextView)findViewById(R.id.tv6);
+        TextView c7 = (TextView)findViewById(R.id.tv7);
+        TextView c8 = (TextView)findViewById(R.id.tv8);
+        TextView c9 = (TextView)findViewById(R.id.tv9);
+        TextView c10 = (TextView)findViewById(R.id.tv10);
+        TextView c11 = (TextView)findViewById(R.id.tv11);
+        TextView c12 = (TextView)findViewById(R.id.tv12);
+
+        c1.setTextColor(Color.parseColor("#01b29b"));
+        c2.setTextColor(Color.parseColor("#01b29b"));
+        c3.setTextColor(Color.parseColor("#01b29b"));
+        c4.setTextColor(Color.parseColor("#01b29b"));
+        c5.setTextColor(Color.parseColor("#01b29b"));
+        c6.setTextColor(Color.parseColor("#01b29b"));
+        c7.setTextColor(Color.parseColor("#01b29b"));
+        c8.setTextColor(Color.parseColor("#01b29b"));
+        c9.setTextColor(Color.parseColor("#01b29b"));
+        c10.setTextColor(Color.parseColor("#01b29b"));
+        c11.setTextColor(Color.parseColor("#01b29b"));
+        c12.setTextColor(Color.parseColor("#01b29b"));
+
+
+
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
