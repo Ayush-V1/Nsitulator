@@ -1,5 +1,6 @@
 package com.example.ayush.nsitulator;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 
@@ -2204,6 +2205,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void onSub(View b)
+    {
+        Intent i = new Intent(this,sub_load.class);
+        startActivity(i);
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
