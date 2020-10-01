@@ -56,31 +56,31 @@ public class sub_load extends AppCompatActivity {
 
                 if(s3.getSelectedItem().toString().equals("Branch")) {
                     if (s4.getSelectedItem().toString().equals("Semester")) {
-                        TextView t1 = (TextView)findViewById(R.id.co1);
-                        TextView t2 = (TextView)findViewById(R.id.co2);
-                        TextView t3 = (TextView)findViewById(R.id.co3);
-                        TextView t4 = (TextView)findViewById(R.id.co4);
-                        TextView t5 = (TextView)findViewById(R.id.co5);
-                        TextView t6 = (TextView)findViewById(R.id.co6);
-                        TextView t7 = (TextView)findViewById(R.id.co7);
-                        TextView t8 = (TextView)findViewById(R.id.co8);
-                        TextView t9 = (TextView)findViewById(R.id.co9);
-                        TextView t10 = (TextView)findViewById(R.id.co10);
-                        TextView t11 = (TextView)findViewById(R.id.co11);
-                        TextView t12 = (TextView)findViewById(R.id.co12);
+                        TextView t1 = findViewById(R.id.co1);
+                        TextView t2 = findViewById(R.id.co2);
+                        TextView t3 = findViewById(R.id.co3);
+                        TextView t4 = findViewById(R.id.co4);
+                        TextView t5 = findViewById(R.id.co5);
+                        TextView t6 = findViewById(R.id.co6);
+                        TextView t7 = findViewById(R.id.co7);
+                        TextView t8 = findViewById(R.id.co8);
+                        TextView t9 = findViewById(R.id.co9);
+                        TextView t10 = findViewById(R.id.co10);
+                        TextView t11 = findViewById(R.id.co11);
+                        TextView t12 = findViewById(R.id.co12);
 
-                        TextView n1 = (TextView)findViewById(R.id.su1);
-                        TextView n2 = (TextView)findViewById(R.id.su2);
-                        TextView n3 = (TextView)findViewById(R.id.su3);
-                        TextView n4 = (TextView)findViewById(R.id.su4);
-                        TextView n5 = (TextView)findViewById(R.id.su5);
-                        TextView n6 = (TextView)findViewById(R.id.su6);
-                        TextView n7 = (TextView)findViewById(R.id.su7);
-                        TextView n8 = (TextView)findViewById(R.id.su8);
-                        TextView n9 = (TextView)findViewById(R.id.su9);
-                        TextView n10 = (TextView)findViewById(R.id.su10);
-                        TextView n11 = (TextView)findViewById(R.id.su11);
-                        TextView n12 = (TextView)findViewById(R.id.su12);
+                        TextView n1 = findViewById(R.id.su1);
+                        TextView n2 = findViewById(R.id.su2);
+                        TextView n3 = findViewById(R.id.su3);
+                        TextView n4 = findViewById(R.id.su4);
+                        TextView n5 = findViewById(R.id.su5);
+                        TextView n6 = findViewById(R.id.su6);
+                        TextView n7 = findViewById(R.id.su7);
+                        TextView n8 = findViewById(R.id.su8);
+                        TextView n9 = findViewById(R.id.su9);
+                        TextView n10 = findViewById(R.id.su10);
+                        TextView n11 = findViewById(R.id.su11);
+                        TextView n12 = findViewById(R.id.su12);
 
 
                         t1.setText("--");
